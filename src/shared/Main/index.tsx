@@ -12,9 +12,10 @@ export const Main = ({ children }: MainProps) => {
         padding: 3,
         display: "flex",
         flexWrap: "wrap",
-        gap: "0.5rem",
+        gap: "1rem",
         justifyContent: "center",
         marginY: 8,
+        maxWidth: "100%",
       }}
     >
       {children}

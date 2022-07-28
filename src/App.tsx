@@ -25,7 +25,7 @@ export const App = () => {
         <Products />
         <Products />
         <Products />
-        <Products />
+        
       </Layout>
     </>
   );
