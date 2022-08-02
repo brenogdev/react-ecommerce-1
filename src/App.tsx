@@ -1,6 +1,6 @@
 import { CssBaseline, Typography } from "@mui/material";
 import React from "react";
-import { Products } from "./components";
+import { FilteredCategory, Products } from "./components";
 import { Layout } from "./shared/Layout";
 
 export const App = () => {
@@ -8,6 +8,7 @@ export const App = () => {
     <>
       <CssBaseline />
       <Layout>
+        <FilteredCategory />
         <Products />
         <Products />
         <Products />
@@ -25,7 +26,6 @@ export const App = () => {
         <Products />
         <Products />
         <Products />
-        
       </Layout>
     </>
   );

@@ -14,7 +14,7 @@ export const Main = ({ children }: MainProps) => {
         flexWrap: "wrap",
         gap: "1rem",
         justifyContent: "center",
-        marginY: 8,
+        marginTop: 16,
         maxWidth: "100%",
       }}
     >

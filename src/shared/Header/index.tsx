@@ -1,11 +1,22 @@
-import { Home, Settings, ShoppingBasketOutlined } from "@mui/icons-material";
-import { AppBar, Box, IconButton, Toolbar } from "@mui/material";
+import { Home, Person, Settings, ShoppingBasketOutlined } from "@mui/icons-material";
+import { AppBar, Box, IconButton, Toolbar, Typography } from "@mui/material";
 import React from "react";
 
 export const Header: React.FunctionComponent = () => {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar elevation={1} position="fixed" color="inherit">
+        <Toolbar
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <Typography variant="h1" fontSize={25} textAlign="center">
+            E-commerce
+          </Typography>
+        </Toolbar>
         <Toolbar
           sx={{
             display: "flex",
@@ -28,7 +39,7 @@ export const Header: React.FunctionComponent = () => {
               <ShoppingBasketOutlined />
             </IconButton>
             <IconButton>
-              <Settings />
+              <Person />
             </IconButton>
           </Box>
         </Toolbar>
