@@ -16,8 +16,7 @@ export default function FilteredCategory() {
         value={value}
         onChange={handleChange}
         centered
-        variant="scrollable"
-        scrollButtons
+        scrollButtons="auto"
         allowScrollButtonsMobile
       >
         <Tab label="Todas" sx={{ textTransform: "capitalize" }} />

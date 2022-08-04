@@ -1,2 +1,2 @@
-export { default as Products } from "./Products";
+export { default as ProductsItems } from "./ProductsItems";
 export { default as FilteredCategory } from "./FilteredCategory";
